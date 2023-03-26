@@ -22,6 +22,7 @@ while (type(filename) is not str):
 # Prompt for number of lines to skip
 print("Please enter the number of rows to skip (the first row is usually skipped because it contains titles, thus input \"1\", but you may have done the second row (first row of data) by hand, thus input \"2\"):")
 skip = input()
+skip = int(skip)
 
 # If input is not a valid integer, reprompt
 while (type(skip) is not int):
